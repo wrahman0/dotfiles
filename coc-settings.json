@@ -1,0 +1,11 @@
+{
+  "git.enableGlobalStatus": false,
+  "languageserver": {
+    "golang": {
+      "command": "gopls",
+      "trace.server": "verbose",
+      "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
+      "filetypes": ["go"]
+    }
+  }
+}
